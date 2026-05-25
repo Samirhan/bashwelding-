@@ -578,7 +578,6 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--clr-text-h); line-h
   box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 .portfolio-card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
 
@@ -605,8 +604,8 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--clr-text-h); line-h
 .pcard-tag { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--clr-navy); background: var(--clr-bg-3); padding: 3px 11px; border-radius: 50px; width: fit-content; }
 .pcard-tag-active { color: var(--clr-orange-dk) !important; background: var(--clr-orange-lt) !important; }
 .pcard-title { font-size: 1rem; font-weight: 700; color: var(--clr-text-h); line-height: 1.4; }
-.pcard-location { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--clr-muted); font-weight: 500; margin-top: auto; }
-.pcard-location svg { width: 14px; height: 14px; flex-shrink: 0; margin-top: 0; }
+.pcard-location { display: flex; align-items: flex-start; gap: 6px; font-size: 0.8rem; color: var(--clr-muted); font-weight: 500; }
+.pcard-location svg { width: 14px; height: 14px; flex-shrink: 0; margin-top: 3px; }
 .pcard-desc { font-size: 0.85rem; color: var(--clr-text); line-height: 1.65; }
 .pcard-desc strong { color: var(--clr-navy); }
 .pcard-desc-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--clr-muted); margin-bottom: 4px; }
