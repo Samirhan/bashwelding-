@@ -42,13 +42,15 @@
 
 /* ----------- СБРОС ----------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; width: 100%; }
 body {
   font-family: var(--font-main);
   background: var(--clr-bg);
   color: var(--clr-text);
   line-height: 1.65;
   overflow-x: hidden;
+  width: 100%;
+  position: relative;
   -webkit-font-smoothing: antialiased;
 }
 img { max-width: 100%; display: block; }
@@ -457,7 +459,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--clr-text-h); line-h
   color: var(--clr-bg-3);
   line-height: 1;
   position: absolute;
-  top: 24px;
+  top: 37px;
   right: 24px;
   transition: var(--transition);
 }
